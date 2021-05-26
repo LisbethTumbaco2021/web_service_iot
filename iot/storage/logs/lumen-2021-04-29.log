@@ -1,0 +1,78 @@
+[2021-04-29 11:58:05] local.INFO: Guarda por aqui  
+[2021-04-29 11:58:40] local.INFO: Guarda por aqui 1  
+[2021-04-29 12:00:47] local.INFO: Guarda por aqui 1  
+[2021-04-29 12:00:47] local.INFO: Entre a guardar 0  
+[2021-04-29 12:01:39] local.INFO: Guarda por aqui 1  
+[2021-04-29 12:01:39] local.INFO: Entre a guardar 1  
+[2021-04-29 12:18:54] local.INFO: Guarda por aqui 1  
+[2021-04-29 12:18:54] local.INFO: Entre a guardar 2  
+[2021-04-29 12:21:11] local.INFO: Guarda por aqui 1  
+[2021-04-29 12:21:11] local.INFO: Entre a guardar 3  
+[2021-04-29 12:22:11] local.INFO: Guarda por aqui 1  
+[2021-04-29 12:22:11] local.INFO: Entre a guardar 4  
+[2021-04-29 12:23:10] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:24:10] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:25:11] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:26:11] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:27:11] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:28:11] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:29:11] local.INFO: Guarda por aqui 0  
+[2021-04-29 17:30:08] local.ERROR: Argument 1 passed to Symfony\Component\HttpFoundation\Response::setContent() must be of the type string or null, object given, called in C:\xampp\htdocs\iot\vendor\illuminate\http\Response.php on line 72 {"exception":"[object] (TypeError(code: 0): Argument 1 passed to Symfony\\Component\\HttpFoundation\\Response::setContent() must be of the type string or null, object given, called in C:\\xampp\\htdocs\\iot\\vendor\\illuminate\\http\\Response.php on line 72 at C:\\xampp\\htdocs\\iot\\vendor\\symfony\\http-foundation\\Response.php:412)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\iot\\vendor\\illuminate\\http\\Response.php(72): Symfony\\Component\\HttpFoundation\\Response->setContent(Object(Doctrine\\CouchDB\\HTTP\\Response))
+#1 C:\\xampp\\htdocs\\iot\\vendor\\illuminate\\http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Doctrine\\CouchDB\\HTTP\\Response))
+#2 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(446): Illuminate\\Http\\Response->__construct(Object(Doctrine\\CouchDB\\HTTP\\Response))
+#3 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Laravel\\Lumen\\Application->prepareResponse(Object(Doctrine\\CouchDB\\HTTP\\Response))
+#4 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#5 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\ControlDatos), 'verDatos', Array)
+#6 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction(Array)
+#7 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#9 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#10 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#12 C:\\xampp\\htdocs\\iot\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#13 {main}
+"} 
+[2021-04-29 12:30:11] local.INFO: Guarda por aqui 0  
+[2021-04-29 17:30:34] local.ERROR: Argument 1 passed to Symfony\Component\HttpFoundation\Response::setContent() must be of the type string or null, object given, called in C:\xampp\htdocs\iot\vendor\illuminate\http\Response.php on line 72 {"exception":"[object] (TypeError(code: 0): Argument 1 passed to Symfony\\Component\\HttpFoundation\\Response::setContent() must be of the type string or null, object given, called in C:\\xampp\\htdocs\\iot\\vendor\\illuminate\\http\\Response.php on line 72 at C:\\xampp\\htdocs\\iot\\vendor\\symfony\\http-foundation\\Response.php:412)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\iot\\vendor\\illuminate\\http\\Response.php(72): Symfony\\Component\\HttpFoundation\\Response->setContent(Object(Doctrine\\CouchDB\\HTTP\\Response))
+#1 C:\\xampp\\htdocs\\iot\\vendor\\illuminate\\http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Doctrine\\CouchDB\\HTTP\\Response))
+#2 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(446): Illuminate\\Http\\Response->__construct(Object(Doctrine\\CouchDB\\HTTP\\Response))
+#3 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Laravel\\Lumen\\Application->prepareResponse(Object(Doctrine\\CouchDB\\HTTP\\Response))
+#4 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#5 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\ControlDatos), 'verDatos', Array)
+#6 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction(Array)
+#7 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#9 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#10 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#12 C:\\xampp\\htdocs\\iot\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#13 {main}
+"} 
+[2021-04-29 12:31:10] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:32:10] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:33:12] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:34:11] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:35:11] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:36:11] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:37:11] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:38:11] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:39:11] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:40:11] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:41:10] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:42:13] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:43:12] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:44:12] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:45:13] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:46:13] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:47:20] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:48:13] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:49:40] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:50:12] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:51:12] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:52:15] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:53:13] local.INFO: Guarda por aqui 0  
+[2021-04-29 12:54:12] local.INFO: Guarda por aqui 0  

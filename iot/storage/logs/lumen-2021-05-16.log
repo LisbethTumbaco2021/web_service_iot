@@ -1,0 +1,68 @@
+[2021-05-16 00:04:17] local.ERROR: Maximum execution time of 120 seconds exceeded {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 120 seconds exceeded at C:\\xampp\\htdocs\\iot\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlHandler.php:45)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-16 00:04:17] local.ERROR: Maximum execution time of 120 seconds exceeded {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 120 seconds exceeded at C:\\xampp\\htdocs\\iot\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlHandler.php:45)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-16 00:09:55] local.ERROR: Undefined index: rows {"exception":"[object] (ErrorException(code: 0): Undefined index: rows at C:\\xampp\\htdocs\\iot\\app\\Http\\Controllers\\ControlDatos.php:58)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\iot\\app\\Http\\Controllers\\ControlDatos.php(58): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined index...', 'C:\\\\xampp\\\\htdocs...', 58, Array)
+#1 C:\\xampp\\htdocs\\iot\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\ControlDatos->verDatos()
+#2 C:\\xampp\\htdocs\\iot\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\xampp\\htdocs\\iot\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\xampp\\htdocs\\iot\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\iot\\vendor\\illuminate\\container\\Container.php(611): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#6 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call(Array, Array)
+#7 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#8 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\ControlDatos), 'verDatos', Array)
+#9 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction(Array)
+#10 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#11 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#12 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#13 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#14 C:\\xampp\\htdocs\\iot\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#15 C:\\xampp\\htdocs\\iot\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#16 {main}
+"} 
+[2021-05-16 00:10:24] local.ERROR: Maximum execution time of 120 seconds exceeded {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 120 seconds exceeded at C:\\xampp\\htdocs\\iot\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlHandler.php:45)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-16 00:10:24] local.ERROR: Maximum execution time of 120 seconds exceeded {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 120 seconds exceeded at C:\\xampp\\htdocs\\iot\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlHandler.php:45)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-16 00:10:24] local.ERROR: Maximum execution time of 120 seconds exceeded {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 120 seconds exceeded at C:\\xampp\\htdocs\\iot\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlHandler.php:45)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-16 00:12:23] local.ERROR: Maximum execution time of 120 seconds exceeded {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 120 seconds exceeded at C:\\xampp\\htdocs\\iot\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlHandler.php:45)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-16 00:15:10] local.ERROR: Maximum execution time of 120 seconds exceeded {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 120 seconds exceeded at C:\\xampp\\htdocs\\iot\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlHandler.php:45)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-16 00:15:58] local.ERROR: Maximum execution time of 120 seconds exceeded {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 120 seconds exceeded at C:\\xampp\\htdocs\\iot\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlHandler.php:45)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-16 00:57:11] local.ERROR: Maximum execution time of 120 seconds exceeded {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 120 seconds exceeded at C:\\xampp\\htdocs\\iot\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlHandler.php:45)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-16 00:57:11] local.ERROR: Maximum execution time of 120 seconds exceeded {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 120 seconds exceeded at C:\\xampp\\htdocs\\iot\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlHandler.php:45)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-16 01:03:31] local.ERROR: Maximum execution time of 120 seconds exceeded {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 120 seconds exceeded at C:\\xampp\\htdocs\\iot\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlHandler.php:45)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-16 01:03:32] local.ERROR: Maximum execution time of 120 seconds exceeded {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 120 seconds exceeded at C:\\xampp\\htdocs\\iot\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlHandler.php:45)
+[stacktrace]
+#0 {main}
+"} 
